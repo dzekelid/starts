@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Fitbit
 x-complete: 1
@@ -96,4 +95,3 @@ paths:
       - Date
       - Start-date-or-end-date
       - End-date-or-period.json
----

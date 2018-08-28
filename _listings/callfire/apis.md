@@ -7,11 +7,83 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-call
 x-kinRank: "9"
 x-alexaRank: "129466"
 tags: Starts
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/callfire/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: CallFire - Start voice broadcast
+  x-api-slug: callsbroadcastsidstart-post
+  description: Start a voice broadcast
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/callfire/callsbroadcastsidstart-post-openapi.md
+- name: CallFire - Start text broadcast
+  x-api-slug: textsbroadcastsidstart-post
+  description: Starts a text broadcast
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/callfire/textsbroadcastsidstart-post-openapi.md
+- name: CallFire - Start voice broadcast
+  x-api-slug: callsbroadcastsidstart-post
+  description: Start a voice broadcast
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/callfire/callsbroadcastsidstart-post-openapi.md
+- name: CallFire - Start text broadcast
+  x-api-slug: textsbroadcastsidstart-post
+  description: Starts a text broadcast
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/callfire/textsbroadcastsidstart-post-openapi.md
+- name: CallFire - Start text broadcast
+  x-api-slug: textsbroadcastsidstart-post
+  description: Starts a text broadcast
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/callfire/textsbroadcastsidstart-post-openapi.md
+- name: CallFire - Start voice broadcast
+  x-api-slug: callsbroadcastsidstart-post
+  description: Start a voice broadcast
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/callfire/callsbroadcastsidstart-post-openapi.md
 x-common:
 - type: x--net-sdk
   url: https://github.com/CallFire/CallFire-CSharp-SDK

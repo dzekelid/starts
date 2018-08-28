@@ -7,11 +7,41 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Starts
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Dezrez.Rezi.Client.Api - Starts a workflow with the given parameters.
+  x-api-slug: apiadminbusinessworkflowstart-post
+  description: Starts a workflow with the given parameters..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/dezrez/apiadminbusinessworkflowstart-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Starts a workflow with the given parameters.
+  x-api-slug: apiadminbusinessworkflowlistworkflows-get
+  description: Starts a workflow with the given parameters..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/dezrez/apiadminbusinessworkflowlistworkflows-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Starts a workflow with the given parameters.
+  x-api-slug: apiworkflowstart-post
+  description: Starts a workflow with the given parameters..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/dezrez/apiworkflowstart-post-openapi.md
 - name: Dezrez.Rezi.Client.Api - Returns a URL that will start the process of authorisation
     with the external provider - normally using the OAuth1/2 protocol suite.
   x-api-slug: apiexternalprovider-get
@@ -26,6 +56,146 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/dezrez/apiexternalprovider-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/dezrez/apiexternalprovider-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Start a new reconcile
+  x-api-slug: apireconcilestart-post
+  description: Start a new reconcile.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/dezrez/apireconcilestart-post-openapi.md
+- name: "Dezrez.Rezi.Client.Api - Set start date, terms, end date and notice period
+    for tenancy.\r\nassertions"
+  x-api-slug: apitenancyidsetdates-post
+  description: "Set start date, terms, end date and notice period for tenancy.\r\nassertions."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/dezrez/apitenancyidsetdates-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Lists the available triggers that are able to start
+    workflows.
+  x-api-slug: apiworkflowtriggers-get
+  description: Lists the available triggers that are able to start workflows..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/dezrez/apiworkflowtriggers-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Returns a URL that will start the process of authorisation
+    with the external provider - normally using the OAuth1/2 protocol suite.
+  x-api-slug: apiexternalprovider-get
+  description: Returns a url that will start the process of authorisation with the
+    external provider - normally using the oauth1/2 protocol suite..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/dezrez/apiexternalprovider-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/dezrez/apiexternalprovider-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Start a new reconcile
+  x-api-slug: apireconcilestart-post
+  description: Start a new reconcile.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/dezrez/apireconcilestart-post-openapi.md
+- name: "Dezrez.Rezi.Client.Api - Set start date, terms, end date and notice period
+    for tenancy.\r\nassertions"
+  x-api-slug: apitenancyidsetdates-post
+  description: "Set start date, terms, end date and notice period for tenancy.\r\nassertions."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/dezrez/apitenancyidsetdates-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Lists the available triggers that are able to start
+    workflows.
+  x-api-slug: apiworkflowtriggers-get
+  description: Lists the available triggers that are able to start workflows..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/dezrez/apiworkflowtriggers-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Starts a workflow with the given parameters.
+  x-api-slug: apiadminbusinessworkflowlistworkflows-get
+  description: Starts a workflow with the given parameters..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/dezrez/apiadminbusinessworkflowlistworkflows-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Starts a workflow with the given parameters.
+  x-api-slug: apiadminbusinessworkflowstart-post
+  description: Starts a workflow with the given parameters..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/dezrez/apiadminbusinessworkflowstart-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Starts a workflow with the given parameters.
+  x-api-slug: apiworkflowstart-post
+  description: Starts a workflow with the given parameters..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/dezrez/apiworkflowstart-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Lists the available triggers that are able to start
+    workflows.
+  x-api-slug: apiworkflowtriggers-get
+  description: Lists the available triggers that are able to start workflows..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/dezrez/apiworkflowtriggers-get-openapi.md
+- name: "Dezrez.Rezi.Client.Api - Set start date, terms, end date and notice period
+    for tenancy.\r\nassertions"
+  x-api-slug: apitenancyidsetdates-post
+  description: "Set start date, terms, end date and notice period for tenancy.\r\nassertions."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/dezrez/apitenancyidsetdates-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Start a new reconcile
+  x-api-slug: apireconcilestart-post
+  description: Start a new reconcile.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/dezrez/apireconcilestart-post-openapi.md
 - name: Dezrez.Rezi.Client.Api - Returns a URL that will start the process of authorisation
     with the external provider - normally using the OAuth1/2 protocol suite.
   x-api-slug: apiexternalprovider-get

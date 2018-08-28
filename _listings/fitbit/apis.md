@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/200-fitbit
 x-kinRank: "9"
 x-alexaRank: "2266"
 tags: Starts
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/fitbit/apis.md
 specificationVersion: "0.14"
 apis:
@@ -141,6 +141,70 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/fitbit/useruseridactivitiescaloriesdatestartdateorenddateenddateorperiod-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/fitbit/useruseridactivitiescaloriesdatestartdateorenddateenddateorperiod-json-get-openapi.md
+- name: Fitbit - Get User User Activities Calories Date Start Date Or End Date End
+    Date Or Period .json
+  x-api-slug: useruseridactivitiescaloriesdatestartdateorenddateenddateorperiod-json-get
+  description: Get time series in the specified range for a given resource in the
+    format requested using units in the unit system which corresponds to the Accept-Language
+    header provided.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/200-fitbit.jpg
+  humanURL: http://fitbit.com
+  baseURL: https://api.fitbit.com//1
+  tags: Sports, Excercise, Devices, Fitness, Wearables, Indie EdTech Data Jam, Stack,
+    Mobile, Technology, API Provider, , Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/fitbit/useruseridactivitiescaloriesdatestartdateorenddateenddateorperiod-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/fitbit/useruseridactivitiescaloriesdatestartdateorenddateenddateorperiod-json-get-openapi.md
+- name: Fitbit - Get User User Body Weight Date Start Date Or End Date End Date Or
+    Period .json
+  x-api-slug: useruseridbodyweightdatestartdateorenddateenddateorperiod-json-get
+  description: Get time series in the specified range for a given resource in the
+    format requested using units in the unit system which corresponds to the Accept-Language
+    header provided.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/200-fitbit.jpg
+  humanURL: http://fitbit.com
+  baseURL: https://api.fitbit.com//1
+  tags: Sports, Excercise, Devices, Fitness, Wearables, Indie EdTech Data Jam, Stack,
+    Mobile, Technology, API Provider, , Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/fitbit/useruseridbodyweightdatestartdateorenddateenddateorperiod-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/fitbit/useruseridbodyweightdatestartdateorenddateenddateorperiod-json-get-openapi.md
+- name: Fitbit - Get User User Foods Log Caloriesin Date Start Date Or End Date End
+    Date Or Period .json
+  x-api-slug: useruseridfoodslogcaloriesindatestartdateorenddateenddateorperiod-json-get
+  description: Get time series in the specified range for a given resource in the
+    format requested using units in the unit system which corresponds to the Accept-Language
+    header provided.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/200-fitbit.jpg
+  humanURL: http://fitbit.com
+  baseURL: https://api.fitbit.com//1
+  tags: Sports, Excercise, Devices, Fitness, Wearables, Indie EdTech Data Jam, Stack,
+    Mobile, Technology, API Provider, , Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/fitbit/useruseridfoodslogcaloriesindatestartdateorenddateenddateorperiod-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/fitbit/useruseridfoodslogcaloriesindatestartdateorenddateenddateorperiod-json-get-openapi.md
+- name: Fitbit - Get User User Sleep Minutesasleep Date Start Date Or End Date End
+    Date Or Period .json
+  x-api-slug: useruseridsleepminutesasleepdatestartdateorenddateenddateorperiod-json-get
+  description: Get time series in the specified range for a given resource in the
+    format requested using units in the unit system which corresponds to the Accept-Language
+    header provided.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/200-fitbit.jpg
+  humanURL: http://fitbit.com
+  baseURL: https://api.fitbit.com//1
+  tags: Sports, Excercise, Devices, Fitness, Wearables, Indie EdTech Data Jam, Stack,
+    Mobile, Technology, API Provider, , Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/fitbit/useruseridsleepminutesasleepdatestartdateorenddateenddateorperiod-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/fitbit/useruseridsleepminutesasleepdatestartdateorenddateenddateorperiod-json-get-openapi.md
 x-common:
 - type: x-api-json--authoritative
   url: https://www.fitbit.com/apis.json

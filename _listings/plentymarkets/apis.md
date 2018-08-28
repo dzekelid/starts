@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Starts
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
 apis:
@@ -40,6 +40,36 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/plentymarkets/restcustomer-contractscontractidsigndocument-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/plentymarkets/restcustomer-contractscontractidsigndocument-get-openapi.md
+- name: plentymarkets REST-API - Start the market listing on the designated market.
+  x-api-slug: restlistingsmarketsstartid-post
+  description: Starts the market listing on the designated markets.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/plentymarkets/restlistingsmarketsstartid-post-openapi.md
+- name: plentymarkets REST-API - Start the market listing on the designated market.
+  x-api-slug: restlistingsmarketsstartid-post
+  description: Starts the market listing on the designated markets.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/plentymarkets/restlistingsmarketsstartid-post-openapi.md
+- name: plentymarkets REST-API - Start the market listing on the designated market.
+  x-api-slug: restlistingsmarketsstartid-post
+  description: Starts the market listing on the designated markets.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/plentymarkets/restlistingsmarketsstartid-post-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.plentymarkets.co.uk/?ActionCall=WebActionRSS&rrss_id=1

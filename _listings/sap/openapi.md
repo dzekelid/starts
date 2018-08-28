@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: SAP
 x-complete: 1
@@ -17,4 +16,21 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /collaborationRooms/{collaborationRoomId}/start:
+    post:
+      summary: Starts a collaboration
+      description: "Sets a collaboration in process.  \nThe collaboration must be
+        a new collaboration."
+      operationId: sets-a-collaboration-in-process--the-collaboration-must-be-a-new-collaboration
+      x-api-path-slug: collaborationroomscollaborationroomidstart-post
+      parameters:
+      - in: path
+        name: collaborationRoomId
+        description: The ID of a collaboration room
+      responses:
+        200:
+          description: Successful response
+      tags:
+      - Starts
+      - Collaboration

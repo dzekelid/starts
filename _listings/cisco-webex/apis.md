@@ -9,11 +9,25 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/730-cisco-
 x-kinRank: "7"
 x-alexaRank: "632"
 tags: Starts
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/cisco-webex/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Webex Teams API - List people (whose name starts with)
+  x-api-slug: people-get
+  description: |-
+    List people in your organization.
+
+    https://developer.webex.com/endpoint-people-get.html
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/730-cisco-webex.jpg
+  humanURL: https://webex.com
+  baseURL: https://api.ciscospark.com//v1
+  tags: Enterprise, Office, Collaboration, Video Conferencing, SaaS, Technology, Telecommunications,
+    API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/cisco-webex/people-get-openapi.md
 x-common:
 - type: x-postman-collection
   url: https://app.getpostman.com/run-collection/1f5e101d8290a5303c90

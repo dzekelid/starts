@@ -13,11 +13,33 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Starts
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/aws-codebuild/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS CodeBuild API - Start Build
+  x-api-slug: actionstartbuild-get
+  description: Starts running a build.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/code-build-console-icon.png
+  humanURL: https://aws.amazon.com/codebuild/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/aws-codebuild/actionstartbuild-get-openapi.md
+- name: AWS CodeBuild API - Start Build
+  x-api-slug: actionstartbuild-get
+  description: Starts running a build.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/code-build-console-icon.png
+  humanURL: https://aws.amazon.com/codebuild/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/aws-codebuild/actionstartbuild-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.code.pipeline.api.gallery.streamdata.io

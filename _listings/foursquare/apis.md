@@ -7,11 +7,26 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursq
 x-kinRank: "9"
 x-alexaRank: "2544"
 tags: Starts
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/foursquare/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Foursquare - Post Campaigns Start
+  x-api-slug: campaignscampaign-idstart-post
+  description: /campaigns/{CAMPAIGN_ID}/end
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
+  humanURL: http://blog.foursquare.com
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/foursquare/campaignscampaign-idstart-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/foursquare/campaignscampaign-idstart-post-openapi.md
 - name: Foursquare - Post Campaigns Start
   x-api-slug: campaignscampaign-idstart-post
   description: /campaigns/{CAMPAIGN_ID}/end

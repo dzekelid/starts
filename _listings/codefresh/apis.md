@@ -9,11 +9,41 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-code
 x-kinRank: "7"
 x-alexaRank: "240033"
 tags: Starts
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/codefresh/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Codefresh API - Get Environments Start
+  x-api-slug: environmentsidstart-get
+  description: Get environments start.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/codefresh/environmentsidstart-get-openapi.md
+- name: Codefresh API - Get Environments Start
+  x-api-slug: environmentsidstart-get
+  description: Get environments start.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/codefresh/environmentsidstart-get-openapi.md
+- name: Codefresh API - Get Environments Start
+  x-api-slug: environmentsidstart-get
+  description: Get environments start.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/codefresh/environmentsidstart-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://code.gov.api.gallery.streamdata.io

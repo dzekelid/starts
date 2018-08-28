@@ -10,11 +10,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Starts
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/aws-opsworks/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS OpsWorks API - Start Instance
+  x-api-slug: actionstartinstance-get
+  description: Starts a specified instance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/aws-opsworks/actionstartinstance-get-openapi.md
 - name: AWS OpsWorks API - Start Stack
   x-api-slug: actionstartstack-get
   description: Starts a stack's instances.
@@ -28,6 +39,41 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/aws-opsworks/actionstartstack-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/aws-opsworks/actionstartstack-get-openapi.md
+- name: AWS OpsWorks API - Start Instance
+  x-api-slug: actionstartinstance-get
+  description: Starts a specified instance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/aws-opsworks/actionstartinstance-get-openapi.md
+- name: AWS OpsWorks API - Start Stack
+  x-api-slug: actionstartstack-get
+  description: Starts a stack's instances.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/aws-opsworks/actionstartstack-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/aws-opsworks/actionstartstack-get-openapi.md
+- name: AWS OpsWorks API - Start Instance
+  x-api-slug: actionstartinstance-get
+  description: Starts a specified instance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/starts/master/_listings/aws-opsworks/actionstartinstance-get-openapi.md
 - name: AWS OpsWorks API - Start Stack
   x-api-slug: actionstartstack-get
   description: Starts a stack's instances.
